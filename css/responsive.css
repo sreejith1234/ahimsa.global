@@ -4,6 +4,7 @@
   #myCarousel .bg_third .carousel_caption{
     right: 5%;
     left: 5%;
+    bottom:40%;
   }
   #myCarousel .carousel_caption {
     padding: 3.25rem 1rem;
@@ -19,6 +20,7 @@
     position: relative;
     right: 15px;
     top: -30px;
+}
 }
 .col-cus {
     width: 50%;
