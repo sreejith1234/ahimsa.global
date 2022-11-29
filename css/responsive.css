@@ -3,6 +3,9 @@
         flex-wrap: wrap;
         padding: 0px;
     }
+    .footer-logo-img {
+      display: none;
+  }
     .product-details {
         width: 100%;
         padding: 20px 15px 20px 15px;
@@ -114,6 +117,10 @@
     .footer-logo {
         padding-left: 2%;
     }
+    .footer-logo-img {
+      padding-right: 15px;
+      width: 15%;
+  }
     .footer-contact {
         padding-left: 2%;
         padding-top: 10%;
