@@ -134,13 +134,28 @@ $(document).ready(function() {
     
         var owl = $('.owl-carousel');
         owl.owlCarousel({
-            items: 3,
             loop: true,
             nav: false,
             margin: 10,
             autoplay: true,
             autoplayTimeout: 3000,
-            autoplayHoverPause: true
+            autoplayHoverPause: true,
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:false
+                },
+                600:{
+                    items:2,
+                    nav:false
+                },
+                1000:{
+                    items:3,
+                    nav:false,
+                    loop:true
+                }
+            }
         });
 
     });
