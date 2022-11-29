@@ -54,7 +54,7 @@
       height:30px;
     }
     .about_card h2 {
-      font-size: 14px;
+      font-size: 18px;
     }
     .ps-timeline-sec .container ol:before{
       top: -4px !important;
@@ -67,7 +67,7 @@
       height:180px; 
     }
     .about_card p {
-      font-size: 12px;
+      font-size: 14px;
     }
     #myCarousel .carousel_caption {
         padding: 3.25rem 1rem;
@@ -106,7 +106,7 @@
       margin-bottom: 2rem;
     }
     .box {
-        margin: 20px 20px;
+        margin: 20px 50px;
     }
     .login_btn {
         display: none;
