@@ -1,3 +1,39 @@
+@media only screen and (max-width: 992px) {
+  .product-section {
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+    .product-details {
+        width: 100%;
+        padding: 20px 15px 20px 15px;
+    }
+    .dpass-main {
+      width: 100%;
+    }
+    .graph {
+        width: 100%;
+        padding: 50px 25px;
+    }
+    .prep_parm {
+        position: relative;
+        right: 15px;
+        top: -30px;
+    }
+    .col-cus-12{
+      width:100%;
+    }
+    #myCarousel .bg_first .carousel_caption, #myCarousel .bg_second .carousel_caption, #myCarousel .bg_third .carousel_caption {
+      right: 5%;
+      left: 5%;
+    }
+    .login_btn {
+      display: none;
+    }
+    .box {
+        margin: 20px 20px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
 
     #myCarousel .bg_first .carousel_caption,
@@ -6,6 +42,32 @@
         right: 5%;
         left: 5%;
         bottom: 40%;
+    }
+    .cls-2 {
+      font-size: 1.5px;
+      font-family: 'Roboto-Bold';
+    }
+    .about_card {
+      padding: 40px 20px;
+    }
+    .bg-merge{
+      height:30px;
+    }
+    .about_card h2 {
+      font-size: 14px;
+    }
+    .ps-timeline-sec .container ol:before{
+      top: -4px !important;
+      left: 33px !important;
+    }
+    .ps-timeline-sec .container ol:after{
+      left: 33px !important;
+    }
+    .ps-timeline-sec .container ol.ps-timeline li {
+      height:180px; 
+    }
+    .about_card p {
+      font-size: 12px;
     }
     #myCarousel .carousel_caption {
         padding: 3.25rem 1rem;
@@ -37,30 +99,14 @@
     }
     .product-details {
         width: 100%;
-        padding: 20px 20px 20px 20px;
+        padding: 20px 15px 20px 15px;
+    }
+    .dpass-main {
+      width: 100%;
+      margin-bottom: 2rem;
     }
     .box {
-        min-width: 100%;
-        padding: 10px 0px;
-    }
-    .owl-item_content {
-        padding-top: 0px;
-    }
-    .owl-item_content img {
-        width: 40px !important;
-        height: 40px !important;
-    }
-    .owl-item_content strong {
-        font-size: 12px;
-        padding: 0px;
-    }
-    .owl-item_content p {
-        font-size: 12px;
-        padding: 0px;
-    }
-    .box .btn a {
-        font-size: 12px;
-        padding: 0px;
+        margin: 20px 20px;
     }
     .login_btn {
         display: none;

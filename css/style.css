@@ -194,10 +194,11 @@ background: linear-gradient(113deg, rgba(4,21,63,1) 36%, rgba(4,21,63,0.59177174
 }
 .cls-16 {
     font-size: 1.2px;
-    font-family: 'Roboto-Light';
+    font-family: 'Roboto-Regular';
 }
 .cls-2 {
     font-size: 1.5px;
+    font-family: 'Roboto-Regular';
 }
 .cls-16  {
     fill: #fff;
@@ -499,7 +500,7 @@ background: linear-gradient(113deg, rgba(4,21,63,1) 36%, rgba(4,21,63,0.59177174
 }
 .ps-timeline-sec .container ol.ps-timeline li p {
   text-align: left;
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
   font-family: Roboto-Light;
   color: #fff;
@@ -530,6 +531,14 @@ background: linear-gradient(113deg, rgba(4,21,63,1) 36%, rgba(4,21,63,0.59177174
     width: 100%;
     height: 100px;
     background: linear-gradient(0deg,rgb(248 249 250 / 0%) 0,rgb(226 230 239) 100%);
+}
+.about-content-sub2 .text-cap-sub-1{
+    font-family: 'Roboto-Regular';
+    color: #04153f;
+}
+.about-content-sub3 .text-cap-sub-1{
+    font-family: 'Roboto-Regular';
+    color: #04153f;
 }
 .about_card{
         background: rgb(4,21,63);
@@ -601,6 +610,7 @@ background: linear-gradient(113deg, rgba(4,21,63,1) 36%, rgba(4,21,63,0.59177174
     transform: translateX(-50%);
     border-radius: 0px 0px 10px 10px;
 }
+.owl-item {width: 128.906px; margin-right: 10px;}
 .owl-item_content img{
     width: 90px !important;
     height: 90px !important;
