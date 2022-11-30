@@ -53,6 +53,9 @@
     .about_card {
       padding: 40px 20px;
     }
+    .about-content-sub2, .about-content-sub3{
+      padding: 4.5%;
+    }
     .bg-merge{
       height:30px;
     }
@@ -91,7 +94,7 @@
         width: 50%;
     }
     .our-team {
-        padding: 40px 10px;
+        padding: 40px 30px;
     }
     .our_team {
         padding: 50px 0px;
@@ -115,7 +118,7 @@
         display: none;
     }
     .footer-logo {
-        padding-left: 2%;
+        padding-left: 3.5%;
     }
     .footer-logo-img {
       padding-right: 15px;
