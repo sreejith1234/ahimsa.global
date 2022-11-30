@@ -674,12 +674,12 @@ background: linear-gradient(113deg, rgba(4,21,63,1) 36%, rgba(4,21,63,0.59177174
     background: -webkit-linear-gradient(270deg,rgb(226 230 239) 0,#101533 33%);
     background: linear-gradient(180deg,rgb(226 230 239) 0,#101533 33%);
 }
-.footer .container-fluid {
+.footer .container {
     padding-top: 130px;
     padding-bottom: 50px;
 }
 .footer-logo {
-    padding-left: 15%;
+    padding-left: 0%;
 }
 .footer-logo-text .txt-reg {
     font-family: Roboto-Light;
